@@ -2,7 +2,7 @@
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    // Эта функция делает анимацию при клике на ссылку
+    // Эта функция делает анимацию плавного перехода по странице при клике на ссылку
     // Необходима отдельная библеотека
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -33,6 +33,10 @@
             top: 100
         }
     })
+    // Получить день недели и сделать его активным
+    var today_date = new Date();
+    var number_of_weak_day = today_date.getDay();
+    $("#contact list-of-weak").children(number_of_weak_day).addClass("active");
 
     // Initialize and Configure Scroll Reveal Animation
     // Срабатывает анимация когда объект появляется на экране
