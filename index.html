@@ -24,6 +24,34 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+    <script type="text/javascript">
+    // Создает обработчик события window.onLoad
+    YMaps.jQuery(function () {
+        // Создает экземпляр карты и привязывает его к созданному контейнеру
+        var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+        // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+        map.setCenter(new YMaps.GeoPoint(30.248247, 55.182949), 16);
+        var s = new YMaps.Style();
+        s.lineStyle = new YMaps.LineStyle();
+        s.lineStyle.strokeColor = '1e69b8';
+        s.lineStyle.strokeWidth = '3';
+        YMaps.Styles.add("example#CustomLine", s);
+        var polyline = YMaps.Polyline.fromEncodedPoints("3ojNAZr_SQOwAwAAjP___3IBAABYAwAARwEAAGQDAAC7AAAApwEAANEAAACnAQAAUQQAAAYAAAA=", "AAA");
+        polyline.setStyle("example#CustomLine");
+        polyline.name = "Дорога в ВитРемСервис"
+        map.addOverlay(polyline);//Добавить линию
+        // Создает метку с маленьким значком красного цвета
+        var placemark = new YMaps.Placemark(new YMaps.GeoPoint(30.250409, 55.183630), {style: "default#workshopIcon"});
+        placemark.name = "ВитРемСервис";
+        map.addOverlay(placemark);
+        // Создает элемент масштабирования
+        var smallZoomControl = new YMaps.Zoom();
+        map.addControl(smallZoomControl);
+        // var miniMapPositive = new YMaps.MiniMap(5); // Работает как обзорная карта
+        // map.addControl(miniMapPositive);
+    })
+</script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -92,10 +120,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">У нас есть то что вам нужно!</h2>
                     <hr class="light">
                     <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Начать!</a>
                 </div>
             </div>
         </div>
@@ -151,10 +179,13 @@
             </div>
         </div>
     </section>
-
-    <section class="no-padding" id="portfolio">
+    <section class="no-padding-b" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Фотогалерея</h2>
+                    <hr class="primary">
+                </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
@@ -263,7 +294,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Наши услуги</h2>
                     <hr class="primary">
-                    <p>Мы можем помочь вам во всем , от замены масла до смены двигателя. Мы можем справиться с любой проблемой на иностранных и отечественных автомобилях.</p>
+                    <p>Мы можем помочь вам во всем, от замены масла до смены двигателя. Мы справимся с любой проблемой на иностранных и отечественных автомобилях.</p>
                 </div>
                 <div class="col-xs-6 col-sm-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
@@ -318,7 +349,7 @@
                 </div>
                 <div class="col-xs-6 col-sm-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
-                    <h3 class="header-service-block text-center">пр</h3>
+                    <h3 class="header-service-block text-center">Топлевная система</h3>
                     <ul>
                         <li></li>
                         <li></li>
@@ -329,40 +360,64 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="map">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="section-heading text-center">Карта проезда</h2>
+                <hr class="primary">
+                <div id="YMapsID" class="sto-on-yandex-map">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="no-padding" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Давайте свяжемся!</h2>
                     <hr class="primary">
-                    <p>Готовы провести ремонт с нашем СТО? Это замечательно! Сделайте нам телефонный звонок или отправте сообщение и мы ответим вам скоро на сколько это возможно!</p>
+                    <p>Готовы провести ремонт в нашем СТО? Это замечательно! Сделайте нам телефонный звонок или отправте сообщение и мы ответим вам настолько быстро, на сколько это возможно!</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+            </div>
+        </div>
+    </section>
+    <section class="weak-of-job no-padding-t" >
+        <div class="container">
+            <div class="row">
+<!--                 <div class="col-xs-12 text-center">
+                    <h2 class="section-heading text-center">Контакты</h2>
+                    <hr class="primary">
+                </div> -->
+                <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>375 29 712-65-07</p>
+                    <p class="h3">375 29 712-65-07</p>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-xs-12 col-sm-4 col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">vit.rem.service@gmail.com</a></p>
-                </div>
-                <div class="cleatfix"></div>
-                <div class="col-xs-12"></div>                 
-                <div class="col-md-4">
-                        <h3>Часы работы Витеремсервиса</h3>
-                        <ul class="list-of-weak simple">
-                            <li class="monday"><span>Понедельник:</span>9:00 - 17:00</li>
-                            <li class="tuesday"><span>Вторник:</span>9:00 - 17:00</li>
-                            <li class="wednesday"><span>Среда:</span>9:00 - 17:00</li>
-                            <li class="thursday"><span>Четверг:</span>9:00 - 17:00</li>
-                            <li class="friday"><span>Пятница:</span>9:00 - 17:00</li>
-                            <li class="saturday"><span>Суббота:</span>9:00 - 17:00</li>
-                            <li class="sunday"><span>Воскресенье:</span>Выходной</li>
-                        </ul>
+                    <p class="h3"><a href="mailto:vit.rem.service@gmail.com">vit.rem.service@gmail.com</a></p>
                 </div>                
-                <div class="col-md-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">vit.rem.service@gmail.com</a></p>
+            </div>
+        <div class="row ">   
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h3 class="to-center-text-sm">Часы работы<br>автосервиса<small>*</small></h3>
+                        <div class="to-center-block-sm">
+                            <ul class="list-of-weak simple">
+                                <li class="monday"><span>Понедельник:</span>9:00 - 17:00</li>
+                                <li class="tuesday"><span>Вторник:</span>9:00 - 17:00</li>
+                                <li class="wednesday"><span>Среда:</span>9:00 - 17:00</li>
+                                <li class="thursday"><span>Четверг:</span>9:00 - 17:00</li>
+                                <li class="friday"><span>Пятница:</span>9:00 - 17:00</li>
+                                <li class="saturday"><span>Суббота:</span>9:00 - 17:00</li>
+                                <li class="sunday"><span>Воскресенье:</span>Выходной</li>
+                                <li><small>*исключая праздничные дни</small></li>
+                            </ul>
+                        </div>
+                </div>                
+                <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+                    <h3 class="to-center-text-sm">Адрес автосервиса<br> </h3>
+                    <p><a href="mailto:vit.rem.service@gmail.com">vit.rem.service@gmail.com</a></p>
                 </div>
+                <div class="col-xs-12 col-sm-4 col-md-4"></div> 
             </div>
         </div>
     </section>

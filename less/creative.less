@@ -16,6 +16,7 @@ hr {
     border-color: @theme-primary;
     border-width: 3px;
     max-width: 50px;
+    margin-bottom: 40px;
 }
 
 hr.light {
@@ -55,20 +56,28 @@ p {
     background-color: @gray-darker;
     color: white;
 }
+.bg-dark-light{
+    background-color: @gray-light;
+    color: white;
+}
 
 .text-faded {
     color: fade(white, 70%);
 }
 
 section {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 aside {
     padding: 50px 0;
 }
 
-.no-padding {
+.no-padding-b {
+    padding-bottom: 0;
+}.no-padding-t {
+    padding-top: 0;
+}.no-padding {
     padding: 0;
 }
 
@@ -367,17 +376,22 @@ header {
         }
     }
 }
-#contact{
+#contact, .weak-of-job{
     .list-of-weak{
         list-style: none; 
         padding: 0; 
-        margin: 0;
+        margin: 0;    
+        .active{
+            font-weight: bold;
+            color: @theme-primary;
+        }
     }
     .simple li{
         padding-left: 0;
+        max-width: 250px;
         & span{
             float: left;
-            min-width: 40%;
+            min-width: 130px;
         }
     }
     // .monday,
@@ -390,7 +404,50 @@ header {
     .active{
         font-weight: bold;
         color: @theme-primary;
+    }        
+    @media (max-width: 768px){
+        .to-center-text-sm{
+            text-align: center;
+        }
+        .to-center-block-sm{
+            ul{
+                max-width: 320px; 
+                margin: 0 auto;
+            }
+        }
+        .simple li{
+            margin: 0 auto;
+        }
     }
+
+}
+#map{
+    .sto-on-yandex-map{
+        width: 100%;
+        height: 400px;
+        max-height: 80vh;
+        display: block;
+        &:before, &:after{
+            position: absolute;
+            z-index: 2;
+            display: block;
+            content: "";
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-repeat: repeat-x;
+        }
+        &:before{
+            top: 0;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAECAQAAAAO5iayAAAAFElEQVR4nGNh8GdgYGF4AyIeQ1kAHEIDG/bSxzYAAAAASUVORK5CYII=);
+        }
+        &:after{
+            bottom: 0;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAECAQAAAAO5iayAAAAFElEQVR4nGNh4GJgYGEQARGyUBYAA7gAYNMlmuUAAAAASUVORK5CYII=);
+        }
+
+    }
+
 
 }
 .our-services{
@@ -437,6 +494,7 @@ header {
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
+    min-width: 180px;
 }
 
 .btn-xl {

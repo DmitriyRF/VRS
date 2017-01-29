@@ -36,7 +36,8 @@
     // Получить день недели и сделать его активным
     var today_date = new Date();
     var number_of_weak_day = today_date.getDay();
-    $("#contact list-of-weak").children(number_of_weak_day).addClass("active");
+    if(number_of_weak_day == 0) number_of_weak_day = 7; 
+    $(".weak-of-job .list-of-weak").children().eq(number_of_weak_day-1).addClass("active");
 
     // Initialize and Configure Scroll Reveal Animation
     // Срабатывает анимация когда объект появляется на экране

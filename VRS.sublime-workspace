@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"box",
+				"box-shadow"
+			],
+			[
 				"imp",
 				"important"
 			],
@@ -296,10 +300,6 @@
 				"tab_content"
 			],
 			[
-				"box",
-				"box-sizing"
-			],
-			[
 				"bxsh",
 				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
 			],
@@ -411,7 +411,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 18201,
+				"buffer_size": 21067,
 				"line_ending": "Unix"
 			}
 		},
@@ -419,7 +419,7 @@
 			"file": "js/creative.js",
 			"settings":
 			{
-				"buffer_size": 2665,
+				"buffer_size": 2734,
 				"line_ending": "Unix"
 			}
 		},
@@ -427,7 +427,7 @@
 			"file": "less/creative.less",
 			"settings":
 			{
-				"buffer_size": 10154,
+				"buffer_size": 11613,
 				"line_ending": "Unix"
 			}
 		},
@@ -510,9 +510,9 @@
 	},
 	"file_history":
 	[
+		"/E/temp/functions.php",
 		"/E/vitremservice/less/creative.less",
 		"/E/temp/vc_extend.php",
-		"/E/temp/functions.php",
 		"/E/temp/index.php",
 		"/E/vitremservice/css/creative.css",
 		"/E/vitremservice/css/creative.min.css",
@@ -655,6 +655,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btn",
+			"primary",
 			"fa-4x",
 			"candidat_the_excerpt_max_charlength_t",
 			"candidat_the_excerpt_max_charlength_text(get_",
@@ -780,8 +782,6 @@
 			">",
 			"сли порт на который вы устанавливаете Tomcat, занят, то To",
 			"spac",
-			">",
-			"<",
 			">"
 		],
 		"highlight": false,
@@ -853,15 +853,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18201,
+						"buffer_size": 21067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6104,
-								6104
+								18673,
+								18673
 							]
 						],
 						"settings":
@@ -871,7 +871,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1755.0,
+						"translation.y": 5887.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -883,15 +883,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2665,
+						"buffer_size": 2734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1408,
-								1408
+								1480,
+								1480
 							]
 						],
 						"settings":
@@ -900,8 +900,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 336.0,
+						"translation.x": 15.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -919,15 +919,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10154,
+						"buffer_size": 11613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5794,
-								5794
+								9539,
+								9539
 							]
 						],
 						"settings":
@@ -937,7 +937,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3646.0,
+						"translation.y": 6540.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -956,8 +956,8 @@
 						"selection":
 						[
 							[
-								389,
-								389
+								291,
+								280
 							]
 						],
 						"settings":
@@ -994,7 +994,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 588.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1031,7 +1031,7 @@
 		"cols":
 		[
 			0.0,
-			0.608345534407,
+			0.60102489019,
 			1.0
 		],
 		"rows":
