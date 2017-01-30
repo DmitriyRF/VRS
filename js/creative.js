@@ -38,6 +38,8 @@
     var number_of_weak_day = today_date.getDay();
     if(number_of_weak_day == 0) number_of_weak_day = 7; 
     $(".weak-of-job .list-of-weak").children().eq(number_of_weak_day-1).addClass("active");
+    var year = today_date.getFullYear();
+    $(".this-year").html(year);
 
     // Initialize and Configure Scroll Reveal Animation
     // Срабатывает анимация когда объект появляется на экране
@@ -47,18 +49,18 @@
         duration: 600,
         scale: 0.3,
         distance: '0px',
-        reset: true
+        reset: false //Каждый раз
     }, 200);
     sr.reveal('.sr-button', { //кнопка появляется при прокрутке
         duration: 1000,
         delay: 200,
-        reset: true
+        reset: false
     });
     sr.reveal('.sr-contact', {
         duration: 600, //продолжительность
         scale: 0.3, //масштаб
         distance: '0px',
-        reset: true
+        reset: false
     }, 300);
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
