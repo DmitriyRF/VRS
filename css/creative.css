@@ -1,3 +1,6 @@
+/* вертикальный градиент  */
+/* горизонтальный градиент  */
+/* поверхностный градиент */
 html,
 body {
   height: 100%;
@@ -432,11 +435,43 @@ header .header-content .header-content-inner p {
 }
 #review .half-block-review {
   min-height: 400px;
-  background-color: #aaaaaa;
+  width: 100%;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+#review .add-free-for-review {
+  max-height: 420px;
+  overflow: hidden;
+}
+#review .shadow-of-block {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(255, 255, 255, 0), endColorstr=white, GradientType=0);
+  z-index: 2;
 }
 #review .show-btn {
-  margin: 20px auto 10px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  margin: 10px auto;
   bottom: 10px;
+  z-index: 3;
 }
 .call-to-action h2 {
   margin: 0 auto 20px;

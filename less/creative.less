@@ -469,11 +469,34 @@ header {
 #review{
     .half-block-review{
         min-height: 400px;
-        background-color: #aaa
+        width: 100%;
+        position: relative;
+        .transition-all();
     }
-    .show-btn{
-        margin: 20px auto 10px;
+    .add-free-for-review{
+        max-height: 420px;
+        overflow: hidden;
+    }
+    .shadow-of-block{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        .gradient-vertical(rgba(255,255,255,0),white);
+        z-index: 2;
+    }
+    .show-btn{        
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        margin: 10px auto;
         bottom: 10px;
+        z-index: 3;
     }
 }
 .call-to-action {

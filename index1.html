@@ -26,34 +26,34 @@
     <link href="css/creative.css" rel="stylesheet">
     <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
     <script type="text/javascript">
-        // Создает обработчик события window.onLoad
-        YMaps.jQuery(function () {
-            // Создает экземпляр карты и привязывает его к созданному контейнеру
-            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
-            // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
-            map.setCenter(new YMaps.GeoPoint(30.248247, 55.182949), 16);
-            var s = new YMaps.Style();
-            s.lineStyle = new YMaps.LineStyle();
-            s.lineStyle.strokeColor = '1e69b8';
-            s.lineStyle.strokeWidth = '3';
-            YMaps.Styles.add("example#CustomLine", s);
-            var polyline = YMaps.Polyline.fromEncodedPoints("3ojNAZr_SQOwAwAAjP___3IBAABYAwAARwEAAGQDAAC7AAAApwEAANEAAACnAQAAUQQAAAYAAAA=", "AAA");
-            polyline.setStyle("example#CustomLine");
-            polyline.name = "Дорога в ВитРемСервис"
-            map.addOverlay(polyline);//Добавить линию
-            // Создает метку с маленьким значком красного цвета
-            var placemark = new YMaps.Placemark(new YMaps.GeoPoint(30.250409, 55.183630), {style: "default#workshopIcon"});
-            placemark.name = "ВитРемСервис";
-            map.addOverlay(placemark);
-            // Создает элемент масштабирования
-            var smallZoomControl = new YMaps.Zoom();
-            map.addControl(smallZoomControl);
-            // var miniMapPositive = new YMaps.MiniMap(5); // Работает как обзорная карта
-            // map.addControl(miniMapPositive);
-        })
-    </script>
+    // Создает обработчик события window.onLoad
+    YMaps.jQuery(function () {
+        // Создает экземпляр карты и привязывает его к созданному контейнеру
+        var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+        // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+        map.setCenter(new YMaps.GeoPoint(30.248247, 55.182949), 16);
+        var s = new YMaps.Style();
+        s.lineStyle = new YMaps.LineStyle();
+        s.lineStyle.strokeColor = '1e69b8';
+        s.lineStyle.strokeWidth = '3';
+        YMaps.Styles.add("example#CustomLine", s);
+        var polyline = YMaps.Polyline.fromEncodedPoints("3ojNAZr_SQOwAwAAjP___3IBAABYAwAARwEAAGQDAAC7AAAApwEAANEAAACnAQAAUQQAAAYAAAA=", "AAA");
+        polyline.setStyle("example#CustomLine");
+        polyline.name = "Дорога в ВитРемСервис"
+        map.addOverlay(polyline);//Добавить линию
+        // Создает метку с маленьким значком красного цвета
+        var placemark = new YMaps.Placemark(new YMaps.GeoPoint(30.250409, 55.183630), {style: "default#workshopIcon"});
+        placemark.name = "ВитРемСервис";
+        map.addOverlay(placemark);
+        // Создает элемент масштабирования
+        var smallZoomControl = new YMaps.Zoom();
+        map.addControl(smallZoomControl);
+        // var miniMapPositive = new YMaps.MiniMap(5); // Работает как обзорная карта
+        // map.addControl(miniMapPositive);
+    })
+</script>
 <!-- Put this script tag to the <head> of your page -->
-    <script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
 
     <script type="text/javascript">
       VK.init({apiId: 5853582, onlyWidgets: true});
@@ -381,16 +381,18 @@
                 </div>
             </div>
             <div class="row">
-                <div class="half-block-review text-center">
-                    <div class="col-xs-12 col-sm-6">
+                <div class="half-block-review add-free-for-review">
+                    <div class="col-xs-12 col-sm-12">
                         <!-- Put this div tag to the place, where the Comments block will be -->
                         <div id="vk_comments"></div>
                         <script type="text/javascript">
-                        VK.Widgets.Comments("vk_comments", {limit: 10, attach: "photo,video,audio,link"});
+                        VK.Widgets.Comments("vk_comments", {limit: 20, attach: "photo,video,audio,link"});
                         </script>
                     </div>
-                    <div class="col-xs-12 col-sm-6">456</div>
-                    <a href="#" class="btn btn-primary btn-xl sr-button show-btn">Узнать больше</a>
+                    <!-- <div class="col-xs-12 col-sm-6">456</div> -->
+                    <div class="clearfix"></div>
+                    <a class="btn btn-primary btn-xl show-btn">Узнать больше</a>
+                    <div class="shadow-of-block"></div>
                 </div>
             </div>
         </div>

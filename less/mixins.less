@@ -61,3 +61,34 @@
 .serif-font() {
 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+
+/* вертикальный градиент  */
+.gradient-vertical(@start: #000, @stop: #fff) {
+    background: @start;
+    background: -moz-linear-gradient(top,  @start 0%, @stop 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@stop));
+    background: -webkit-linear-gradient(top,  @start 0%,@stop 100%);
+    background: -o-linear-gradient(top,  @start 0%,@stop 100%);
+    background: -ms-linear-gradient(top,  @start 0%,@stop 100%);
+    background: linear-gradient(to bottom,  @start 0%,@stop 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@start, endColorstr=@stop,GradientType=0 );
+}
+/* горизонтальный градиент  */
+.gradient-horizontal(@start: #000, @stop: #fff) {
+    background: @start;
+    background: -moz-linear-gradient(left,  @start 0%, @stop 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,@start), color-stop(100%,@stop));
+    background: -webkit-linear-gradient(left,  @start 0%,@stop 100%);
+    background: -o-linear-gradient(left,  @start 0%,@stop 100%);
+    background: -ms-linear-gradient(left,  @start 0%,@stop 100%);
+    background: linear-gradient(to right,  @start 0%,@stop 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@start', endColorstr='@stop',GradientType=1 );
+}
+/* поверхностный градиент */
+.gradient (@origin: top, @opacity: 0.5) {
+    background-image: -webkit-linear-gradient(@origin, rgba(0,0,0,0.0), rgba(0,0,0,@opacity));
+    background-image: -moz-linear-gradient(@origin, rgba(0,0,0,0.0), rgba(0,0,0,@opacity));
+    background-image: -o-linear-gradient(@origin, rgba(0,0,0,0.0), rgba(0,0,0,@opacity));
+    background-image: -ms-linear-gradient(@origin, rgba(0,0,0,0.0), rgba(0,0,0,@opacity));
+    background-image: linear-gradient(@origin, rgba(0,0,0,0.0), rgba(0,0,0,@opacity));
+}

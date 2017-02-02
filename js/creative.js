@@ -24,8 +24,17 @@
     //Вызывает событие click, у выбранных элементов страницы. Метод является аналогом trigger("click").
     $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
+    });    
+
+    // Open block of comments
+    $('.show-btn').click(function() {
+        $('.shadow-of-block').hide();
+        $(this).hide();
+        $('.add-free-for-review').removeClass('add-free-for-review');
     });
 
+
+    
     // Offset for Main Navigation
     // Функуия bootstrap которая что то делает с меню пр прокрутке на 100px
     $('#mainNav').affix({
