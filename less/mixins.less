@@ -1,9 +1,9 @@
 // Mixins
 
-.transition-all() {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+.transition-all(@trans: 0.35s) {
+    -webkit-transition: all @trans;
+    -moz-transition: all @trans;
+    transition: all @trans;
 }
 
 .background-cover() {

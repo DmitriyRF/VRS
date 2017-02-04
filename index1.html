@@ -44,6 +44,7 @@
         // Создает метку с маленьким значком красного цвета
         var placemark = new YMaps.Placemark(new YMaps.GeoPoint(30.250409, 55.183630), {style: "default#workshopIcon"});
         placemark.name = "ВитРемСервис";
+        placemark.description = "55°11'01 N 30°15'00 E";
         map.addOverlay(placemark);
         // Создает элемент масштабирования
         var smallZoomControl = new YMaps.Zoom();
@@ -55,9 +56,12 @@
 <!-- Put this script tag to the <head> of your page -->
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
 
-    <script type="text/javascript">
+<script type="text/javascript">
       VK.init({apiId: 5853582, onlyWidgets: true});
-    </script>
+</script>
+
+
+
 <!-- 4958452 -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,6 +73,26 @@
 </head>
 
 <body id="page-top">
+    <!-- Small modal -->
+    <div class="modal fade bs-number-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title text-center">Номер телефона:</h3>
+            </div>
+            <div class="modal-body">
+                <p class="h3 text-center text-primary">ВИТРЕМСЕРВИС</p>
+                <p class="h1 text-center">+375(29)712-65-07</p>
+                <p class="h3 text-center">Василий Ефимович</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-xl btn-default pull-left hidden-xs" data-dismiss="modal">Закрыть</button>
+                <a href= "tel:375297126507" type="button" class="btn btn-xl btn-primary">Набрать</a>
+            </div>
+        </div>
+      </div>
+    </div>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -103,27 +127,30 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <header>
+    <header id="image">
+        <div class="black-background"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <h1 id="homeHeading">Витремсервис — ваш надежный партнер для ремонта </h1>
+                            <h1 id="homeHeading">Витремсервис <br> ваш надежный партнер для ремонта </h1>
                             <hr>
-                            <p>ВитРемСервис может помочь вам превосходно отремонтировать вашу машину используя профессиольное оборудоваение для диогностики и ремонта. Просто начните свой ремонт вместе с нами, безовсяких усилий.
+                            <p>ВитРемСервис поможет вам превосходно отремонтировать машину используя профессиольное оборудоваение для диогностики и ремонта. Просто начните свой ремонт вместе с нами, безовсяких усилий.
                             </p>
-                            <p style="display: none;">Наша команда в авторемонтном бизнесе с 2007 года, предоставляет нашим клиентам полный спектр услуг по ремонту и техническому обслуживанию авто. Все наши специалисты профессионалы своего дела. Хотите отремонтировать подвеску или Вам просто нужен ГОС ТЕХОСМОТР, ВИТРЕМСЕРВИС здесь, чтобы дать Вам надежные и профессиональные услуги по ремонту машины.</p>
+                            <p  class="visible-fhd">Наша команда в авторемонтном бизнесе с 2007 года, предоставляет нашим клиентам полный спектр услуг по ремонту и техническому обслуживанию авто. Все наши специалисты профессионалы своего дела. Хотите отремонтировать подвеску или Вам просто нужен ГОС ТЕХОСМОТР, ВИТРЕМСЕРВИС здесь, чтобы дать Вам надежные и профессиональные услуги по ремонту машины.</p>
                             <a href="#about" class="btn btn-primary btn-xl page-scroll">Узнать больше</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </header>
-
+    <script>
+        var rand = Math.random() * 6;
+        rand = Math.floor(rand);
+        image.style.backgroundImage = 'url(img/bg-'+rand+'.jpg)';
+    </script>
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -292,7 +319,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Начать бесплатно с ВитРемСервис!</h2>
-                <a href="#" class="btn btn-default btn-xl sr-button">Позвонить сейчас!</a>
+                <a class="btn btn-default btn-xl sr-button"  data-toggle="modal" data-target=".bs-number-modal-lg">Позвонить сейчас!</a>
             </div>
         </div>
     </aside>
@@ -304,68 +331,73 @@
                     <hr class="primary">
                     <p class="text-lighted">Мы можем помочь вам во всем, от замены масла до смены двигателя. Мы справимся с любой проблемой на иностранных и отечественных автомобилях.<br>Мы предлагаем качественные услуги в области ремонта вашего автомобиля в городе Витебске.</p>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
                     <h3 class="header-service-block text-center">Подвеска</h3>
-                    <ul>
-                        <li>Подготовка к ГОСТЕХОСМОТРУ</li>
-                        <li>Регулировка света фар</li>
-                        <li>Регулировка СО и СН</li>
+                    <ul class="list-of-service">
+                        <li>Замена шаровых опор</li>
+                        <li>Замена пружин подвески</li>
+                        <li>Замена амортизаторов и амортизирующих стоек</li>
+                        <li>Замена рычагов тяг и наконечников</li>
+                        <li>Замена сайлентблоков</li>
                         <li>Регулировка сход-развал</li>
-                        <li>Компьютерная диагностика</li>
-                        <li>Косметическая покраска</li>
+                        <li>Ремонт подвески</li>
                     </ul>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
                     <h3 class="header-service-block text-center">Тормоза</h3>
-                    <ul>
-                        <li>Ремонт приводных валов</li>
-                        <li>Ремонт подвески</li>
+                    <ul class="list-of-service">
+                        <li>Замена колодок, барабанов, дисков</li>
+                        <li>Замена тросов стояночного тормоза</li>
+                        <li>Проверка тормозной системы на стенде</li>
+                        <li>Проточка тормозных дисков</li>
+                        <li>Ремонт тормозных суппортов</li>
                         <li>Ремонт тормозной системы</li>
-                        <li>Ремонт электрооборудования</li>
                     </ul>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="clearfix visible-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
                     <h3 class="header-service-block text-center">Двигатель</h3>
-                    <ul>
-                        <li>Замена дисков сцепления</li>
+                    <ul class="list-of-service">
+                        <li>Замена радиатора</li>
                         <li>Замена ремней ГРМ</li>
-                        
+                        <li>Замена маслосъемных колпачков</li>
+                        <li>Капремонт двигателя</li>
+                        <li>Ремонт ГБЦ</li>
                     </ul>
                 </div>
-                <div class="clearfix hidden-xs"></div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="clearfix visible-md visible-lg"></div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
-                    <h3 class="header-service-block text-center">Привод</h3>
-                    <ul>
-
-                        <li>Проверка тормозной системы на стенде</li>
-                        <li>Проверка на дымность дизельных двигателей</li>
-                        <li>Проточка тормозных дисков</li>
-                        <li></li>
-                        <li></li>
+                    <h3 class="header-service-block text-center">Привод и КП</h3>
+                    <ul class="list-of-service">
+                        <li>Замена приводных валов</li>
+                        <li>Ремон приводных валов</li>
+                        <li>Замена дисков сцепления</li>
                     </ul>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="clearfix visible-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
                     <h3 class="header-service-block text-center">Автоэлектрика</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="list-of-service">
+                        <li>Замена автолампочек</li>
+                        <li>Поиск неисправности проводки</li>
+                        <li>Ремонт электрооборудования</li>
+                        <li>Замена датчика кислорода (лямбда-зонда)</li>
                     </ul>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fa fa-car servise-icon" aria-hidden="true"></i>
-                    <h3 class="header-service-block text-center">Топлевная система</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <h3 class="header-service-block text-center">Диагностика</h3>
+                    <ul class="list-of-service">
+                        <li>Компьютерная диагностика</li>
+                        <li>Проверка на дымность дизельных двигателей</li>
+                        <li>Регулировка СО и СН</li>
+                        <li>Регулировка света фар</li>
+                        <li>Косметическая покраска</li>
                     </ul>
                 </div>
             </div>
@@ -386,7 +418,7 @@
                         <!-- Put this div tag to the place, where the Comments block will be -->
                         <div id="vk_comments"></div>
                         <script type="text/javascript">
-                        VK.Widgets.Comments("vk_comments", {limit: 20, attach: "photo,video,audio,link"});
+                        VK.Widgets.Comments("vk_comments", {limit: 10, attach: "photo,video,audio,link"});
                         </script>
                     </div>
                     <!-- <div class="col-xs-12 col-sm-6">456</div> -->
@@ -408,8 +440,11 @@
     <section id="map">
         <div class="container-fluid">
             <div class="row">
-                <h2 class="section-heading text-center">Карта проезда</h2>
-                <hr class="primary">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading text-center">Карта проезда</h2>
+                    <hr class="primary">
+                    <p class="text-lighted">Мы находимся в городе Витебске на улице Терешковой, 11. Чтобы оказаться у нас, нужно проехать на продолжение улицы Правды и повернуть налево, через 250 метров свернуть направо. И вы на месте!</p>
+                </div>
                 <div id="YMapsID" class="sto-on-yandex-map">
                 </div>
             </div>
@@ -459,10 +494,21 @@
                         </div>
                 </div>                
                 <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                    <h3 class="to-center-text-sm">Адрес автосервиса<br></h3>
+                    <h3 class="to-center-text-sm">Адрес автосервиса</h3>
                     <p>210035, г.Витебск, ул.Терешковой 11</p>
+                    <h4 class="to-center-text-sm">Координаты для навигатора</h4>
+                    <p>55°11'01.0"N 30°15'00.0"E <br>
+                        55.183600, 30.250000</p>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4"></div> 
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h3 class="to-center-text-sm">Мы на других ресурсах:</h3>
+                    <div class="row text-center">
+                        <div class="col-xs-3"><a href=""><i class="fa fa-google fa-2x"></a></i></div>
+                        <div class="col-xs-3"><a href=""><i class="fa fa-yahoo fa-2x"></a></i></div>
+                        <div class="col-xs-3"><a href=""><i class="fa fa-vk fa-2x"></a></i></div>
+                        <div class="col-xs-3"><a href=""><i class="fa fa-odnoklassniki fa-2x"></a></i></div>
+                    </div>
+                </div> 
             </div>
         </div>
     </section>

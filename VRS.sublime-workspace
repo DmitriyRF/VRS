@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-right"
+			],
+			[
 				"min",
 				"min-height"
 			],
@@ -22,10 +26,6 @@
 			[
 				"txt",
 				"text-decoration"
-			],
-			[
-				"margi",
-				"margin-top"
 			],
 			[
 				"margin",
@@ -411,23 +411,15 @@
 			"file": "index1.html",
 			"settings":
 			{
-				"buffer_size": 24433,
+				"buffer_size": 27734,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".htaccess",
-			"settings":
-			{
-				"buffer_size": 1935,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "js/creative.js",
 			"settings":
 			{
-				"buffer_size": 3042,
+				"buffer_size": 3211,
 				"line_ending": "Unix"
 			}
 		},
@@ -435,7 +427,7 @@
 			"file": "less/creative.less",
 			"settings":
 			{
-				"buffer_size": 12436,
+				"buffer_size": 13191,
 				"line_ending": "Unix"
 			}
 		},
@@ -443,7 +435,7 @@
 			"file": "css/creative.css",
 			"settings":
 			{
-				"buffer_size": 14362,
+				"buffer_size": 14940,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +451,7 @@
 			"file": "less/mixins.less",
 			"settings":
 			{
-				"buffer_size": 2966,
+				"buffer_size": 2982,
 				"line_ending": "Unix"
 			}
 		}
@@ -527,6 +519,7 @@
 	"file_history":
 	[
 		"/E/vitremservice/index.html",
+		"/E/vitremservice/.htaccess",
 		"/E/fg/js/common.js",
 		"/E/temp/functions.php",
 		"/E/vitremservice/less/creative.less",
@@ -652,8 +645,7 @@
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/tomcat/conf/server.xml",
 		"/D/dima/project/BD/index.html",
-		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -671,6 +663,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background-cover",
+			">\n",
+			"add-free-for-review",
+			"min-width",
+			"simple",
+			"min-width",
+			"max-width",
+			".portfolio-box",
+			"img-responsive",
+			"portfolio-box",
+			"portfolio-box ",
 			"bg-primary",
 			"page-scroll",
 			"text-faded",
@@ -787,18 +790,7 @@
 			"}",
 			"{",
 			";",
-			"{",
-			"}",
-			";",
-			"image",
-			"animate-on-scroll",
-			"features-item",
-			"large-input-side",
-			"image",
-			"bxsli",
-			"waypo",
-			"form",
-			"$main-font-size"
+			"{"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -860,7 +852,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -869,15 +861,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24433,
+						"buffer_size": 27734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19720,
-								19720
+								26699,
+								26699
 							]
 						],
 						"settings":
@@ -887,55 +879,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6433.0,
+						"translation.y": 6972.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": ".htaccess",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1935,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								48,
-								48
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "js/creative.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3042,
+						"buffer_size": 3211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1187,
-								1187
+								1377,
+								1377
 							]
 						],
 						"settings":
@@ -945,33 +909,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "less/creative.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12436,
+						"buffer_size": 13191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10823,
-								10823
+								11383,
+								11383
 							]
 						],
 						"settings":
@@ -981,27 +945,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6365.0,
+						"translation.y": 6553.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "css/creative.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14362,
+						"buffer_size": 14940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10038,
-								10038
+								6909,
+								6909
 							]
 						],
 						"settings":
@@ -1011,14 +975,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5645.0,
+						"translation.y": 6124.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "less/variables.less",
 					"semi_transient": false,
 					"settings":
@@ -1042,24 +1006,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "less/mixins.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2966,
+						"buffer_size": 2982,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28,
-								11
+								139,
+								139
 							]
 						],
 						"settings":
@@ -1071,7 +1035,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1105,7 +1069,7 @@
 		"cols":
 		[
 			0.0,
-			0.495607613469,
+			0.713762811126,
 			1.0
 		],
 		"rows":
@@ -1153,7 +1117,7 @@
 		],
 		"width": 392.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

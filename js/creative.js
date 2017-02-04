@@ -30,7 +30,14 @@
     $('.show-btn').click(function() {
         $('.shadow-of-block').hide();
         $(this).hide();
-        $('.add-free-for-review').removeClass('add-free-for-review');
+        // $('.add-free-for-review').removeClass('add-free-for-review');
+        $('.add-free-for-review').css({ 
+            'max-height':'1000px',
+            'overflow': 'auto',
+            'overflow-y' : 'scroll'
+        });
+        
+
     });
 
 

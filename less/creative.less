@@ -203,6 +203,16 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
+    .black-background{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.8);
+    }
     .background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
@@ -229,6 +239,15 @@ header {
                 color: fade(white, 70%);
                 font-size: 16px;
                 margin-bottom: 50px;
+            }
+        }
+        .visible-fhd{
+            display: none;
+        }
+        @media (min-width: 1600px) {
+            padding: 25% 15px 100px;
+            .visible-fhd{
+                display: block;
             }
         }
     }
@@ -324,8 +343,11 @@ header {
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    // max-width: 650px;
     margin: 0 auto;
+    .img-responsive{
+        width: 100%;
+    }
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -465,17 +487,30 @@ header {
         margin-bottom: 20px;
         margin-top: 10px;
     }
+    .list-of-service{
+        // text-decoration: none;
+        // list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 280px;
+        padding-left: 10px;
+    }
 }
 #review{
     .half-block-review{
         min-height: 400px;
         width: 100%;
         position: relative;
-        .transition-all();
+        .transition-all(1s);
+    }
+    #vk_comments{
+        width: 97%;
     }
     .add-free-for-review{
         max-height: 420px;
         overflow: hidden;
+
     }
     .shadow-of-block{
         position: absolute;
