@@ -200,16 +200,6 @@ header {
   text-align: center;
   color: white;
 }
-header .black-background {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-}
 header .header-content {
   position: relative;
   text-align: center;
@@ -261,6 +251,16 @@ header .header-content .visible-fhd {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.black-background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .section-heading {
   margin-top: 0;
@@ -451,6 +451,42 @@ header .header-content .visible-fhd {
   margin: 0 auto;
   font-size: 40px;
   color: #1e69b8;
+}
+.our-services .service-icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.our-services .icon-1 {
+  background-image: url("../img/icon-1.png");
+}
+.our-services .icon-2 {
+  background-image: url("../img/icon-2.png");
+}
+.our-services .icon-3 {
+  background-image: url("../img/icon-3.png");
+}
+.our-services .icon-4 {
+  background-image: url("../img/icon-4.png");
+}
+.our-services .icon-5 {
+  background-image: url("../img/icon-5.png");
+}
+.our-services .icon-6 {
+  background-image: url("../img/icon-6.png");
+}
+.our-services .icon-7 {
+  background-image: url("../img/icon-7.png");
+}
+.our-services .icon-8 {
+  background-image: url("../img/icon-8.png");
 }
 .our-services .header-service-block {
   margin-bottom: 20px;

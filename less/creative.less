@@ -203,16 +203,7 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    .black-background{
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(0,0,0,0.8);
-    }
+    // z-index: 1;
     .background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
@@ -276,6 +267,17 @@ header {
             }
         }
     }
+}
+.black-background{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    // z-index: 2;
 }
 
 // Sections
@@ -482,6 +484,40 @@ header {
         margin: 0 auto;
         font-size: 40px;
         color: @theme-primary;
+
+    }
+    .service-icon{
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        background-position: center;
+        .background-cover;
+    }
+    .icon-1{
+        background-image: url("../img/icon-1.png");
+    }
+    .icon-2{
+        background-image: url("../img/icon-2.png");
+    }
+    .icon-3{
+        background-image: url("../img/icon-3.png");
+    }
+    .icon-4{
+        background-image: url("../img/icon-4.png");
+    }
+    .icon-5{
+        background-image: url("../img/icon-5.png");
+    }
+    .icon-6{
+        background-image: url("../img/icon-6.png");
+    }
+    .icon-7{
+        background-image: url("../img/icon-7.png");
+    }
+    .icon-8{
+        background-image: url("../img/icon-8.png")
     }
     .header-service-block{
         margin-bottom: 20px;
