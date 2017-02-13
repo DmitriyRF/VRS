@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"bacg",
 				"background-position"
 			],
@@ -412,10 +420,10 @@
 	"buffers":
 	[
 		{
-			"file": "index1.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 28197,
+				"buffer_size": 28700,
 				"line_ending": "Unix"
 			}
 		},
@@ -431,7 +439,7 @@
 			"file": "less/creative.less",
 			"settings":
 			{
-				"buffer_size": 13967,
+				"buffer_size": 14419,
 				"line_ending": "Unix"
 			}
 		},
@@ -439,7 +447,7 @@
 			"file": "css/creative.css",
 			"settings":
 			{
-				"buffer_size": 15783,
+				"buffer_size": 16052,
 				"line_ending": "Unix"
 			}
 		},
@@ -522,6 +530,7 @@
 	},
 	"file_history":
 	[
+		"/E/vitremservice/index1.html",
 		"/E/vitremservice/index.html",
 		"/E/vitremservice/.htaccess",
 		"/E/fg/js/common.js",
@@ -648,8 +657,7 @@
 		"/D/dima/project/BD/css/main.css",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/tomcat/conf/server.xml",
-		"/D/dima/project/BD/index.html",
-		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/D/dima/project/BD/index.html"
 	],
 	"find":
 	{
@@ -667,6 +675,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"services",
+			"portfolio",
 			"service-icon",
 			"background-cover",
 			">\n",
@@ -792,9 +802,7 @@
 			"lg",
 			"viewportChecker",
 			"hover",
-			"}",
-			"{",
-			";"
+			"}"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -861,19 +869,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index1.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28197,
+						"buffer_size": 28700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20609,
-								20609
+								6563,
+								6563
 							]
 						],
 						"settings":
@@ -883,10 +891,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6054.0,
+						"translation.y": 1825.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -916,7 +924,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -931,15 +939,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13967,
+						"buffer_size": 14419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11159,
-								11159
+								4018,
+								4018
 							]
 						],
 						"settings":
@@ -949,10 +957,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6612.0,
+						"translation.y": 2689.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -961,7 +969,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15783,
+						"buffer_size": 16052,
 						"regions":
 						{
 						},
@@ -982,7 +990,7 @@
 						"translation.y": 3417.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -998,8 +1006,8 @@
 						"selection":
 						[
 							[
-								241,
-								241
+								286,
+								291
 							]
 						],
 						"settings":
@@ -1010,7 +1018,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1026,8 +1034,8 @@
 						"selection":
 						[
 							[
-								139,
-								139
+								445,
+								445
 							]
 						],
 						"settings":
@@ -1039,7 +1047,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1121,7 +1129,7 @@
 		],
 		"width": 392.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
