@@ -1,0 +1,906 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bacg",
+				"background-position"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"txt",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"my-bo",
+				"my-border-radius"
+			],
+			[
+				"pad",
+				"pad	padding"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"liss",
+				"list-style-type"
+			],
+			[
+				"col",
+				"color_chroma"
+			],
+			[
+				"di",
+				"dis	display"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"remov",
+				"removeClass	.removeClass()"
+			],
+			[
+				"color",
+				"color_chroma"
+			],
+			[
+				"fonts",
+				"font-style"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"colum",
+				"column-rule"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"txtal",
+				"text-align"
+			],
+			[
+				"fadeOut",
+				"fadeOutDown"
+			],
+			[
+				"anima",
+				"animated"
+			],
+			[
+				"ani",
+				"animation-delay"
+			],
+			[
+				"color_bg_",
+				"color_bg_dark"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"san",
+				"sans-serif"
+			],
+			[
+				"rem",
+				"removeClass	.removeClass()"
+			],
+			[
+				"td",
+				"td:n	text-decoration:none"
+			],
+			[
+				"fade",
+				"fadeToggle	.fadeToggle()"
+			],
+			[
+				"sli",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"my-b",
+				"my-border-radius"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"liner",
+				"linear-gradient"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"my-anima",
+				"my-animation-direction"
+			],
+			[
+				"my-ani",
+				"my-animation-iteration-count"
+			],
+			[
+				"act",
+				"act-btn"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"bor",
+				"border-top-radius"
+			],
+			[
+				"rgb",
+				"rgba"
+			],
+			[
+				"zi",
+				"z-index"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"mai",
+				"main-font-size"
+			],
+			[
+				"cur",
+				"cur:c	cursor:crosshair"
+			],
+			[
+				"color_",
+				"color_simple"
+			],
+			[
+				"bgi",
+				"bgi	background-image"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"id",
+				"student_id"
+			],
+			[
+				"dri",
+				"driver_id"
+			],
+			[
+				"set",
+				"Set"
+			],
+			[
+				"scr",
+				"src"
+			],
+			[
+				"picture",
+				"picture-letter-a"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"t",
+				"tel"
+			],
+			[
+				"tab_",
+				"tab_content"
+			],
+			[
+				"bxsh",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"border-top",
+				"border-top-style"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"disp",
+				"display"
+			],
+			[
+				"tr",
+				"trsde	transition-delay"
+			],
+			[
+				"trn",
+				"transition"
+			],
+			[
+				"p",
+				"pb	padding-bottom"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"trs",
+				"trs	transition"
+			],
+			[
+				"bn",
+				"bd:n	border:none"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"a",
+				"transparent"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tsh",
+				"tsh	text-shadow: ${1:hoff} ${2:voff} ${3:blur} ${4:#000};"
+			],
+			[
+				"lstn",
+				"list:n	list-style-type:none"
+			],
+			[
+				"border-sp",
+				"border-collapse"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bg",
+				"bgo	background-origin"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"posa",
+				"pos-a	position: absolute;"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prefere",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/vitremservice/less/mixins.less",
+		"/E/vitremservice/less/variables.less",
+		"/E/vitremservice/css/creative.css",
+		"/E/vitremservice/less/creative.less",
+		"/E/vitremservice/js/creative.js",
+		"/E/vitremservice/index.html",
+		"/E/vitremservice/README.md",
+		"/E/vitremservice/zaglushka.html",
+		"/E/vitremservice/index1.html",
+		"/E/vitremservice/.htaccess",
+		"/E/fg/js/common.js",
+		"/E/temp/functions.php",
+		"/E/temp/vc_extend.php",
+		"/E/temp/index.php",
+		"/E/vitremservice/css/creative.min.css",
+		"/E/startbootstrap-creative-gh-pages/index.html",
+		"/E/startbootstrap-creative-gh-pages/js/creative.js",
+		"/E/startbootstrap-creative-gh-pages/less/creative.less",
+		"/E/startbootstrap-creative-gh-pages/.gitignore",
+		"/E/fg/css/sass/main.scss",
+		"/E/fg/index.html",
+		"/E/fg/css/sass/fonts.scss",
+		"/E/startbootstrap-creative-gh-pages/less/variables.less",
+		"/E/startbootstrap-creative-gh-pages/less/mixins.less",
+		"/E/startbootstrap-creative-gh-pages/vendor/scrollreveal/scrollreveal.js",
+		"/E/fg/libs/bootstrap/css/bootstrap-theme.css",
+		"/E/fg/libs/bootstrap/css/bootstrap.css",
+		"/E/WordPressSite/html/css/sass/fonts.scss",
+		"/E/fg/css/fonts.css",
+		"/E/fg/config.rb",
+		"/E/fg/libs/scrollto/jquery.scrollTo.min.js",
+		"/C/Users/Олюшка/.ssh/id_rsa",
+		"/C/Users/Олюшка/.ssh/id_rsa.pub",
+		"/E/fg/README.md",
+		"/E/fg/.gitconfig",
+		"/E/fg/.gitignore",
+		"/C/Users/Олюшка/.ssh/known_hosts",
+		"/D/dima/project/man/js/common.js",
+		"/D/dima/project/Theme1/js/common.js",
+		"/E/WordPressSite/html/js/common.js",
+		"/E/fg/production/js/common.js",
+		"/D/dima/project/Theme1/css/sass/main.scss",
+		"/E/fg/css/main.css",
+		"/E/WordPressSite/html/css/sass/main.scss",
+		"/E/fg/libs/liLanding/jquery.liLanding.js",
+		"/E/fg/libs/liLanding/liLanding.css",
+		"/D/dima/project/Theme1/css/sass/fonts.scss",
+		"/D/dima/project/Theme1/index.html",
+		"/D/dima/openserver/domains/venera/index.php",
+		"/D/dima/openserver/domains/html/index.html",
+		"/D/dima/openserver/domains/html/temp.css",
+		"/E/WordPressSite/html/css/sass/skins/tomato.scss",
+		"/E/WordPressSite/html/css/main.css",
+		"/E/WordPressSite/html/index.html",
+		"/D/dima/project/Start-land-page/css/sass/main.scss",
+		"/E/WordPressSite/html/libs/theme-options/functions.php",
+		"/E/WordPressSite/html/libs/theme-options/style.css",
+		"/E/WordPressSite/html/libs/animate/animate.js",
+		"/E/WordPressSite/html/libs/jQBootstrapValidation/jqBootstrapValidation.js",
+		"/E/WordPressSite/html/css/skins/tomato.css",
+		"/E/Node.temp/HelloWorld.js",
+		"/E/Node/ser/acsept.js",
+		"/E/WordPressSite/html/libs/waypoints/waypoints.min.js",
+		"/E/WordPressSite/html/libs/bootstrap/css/bootstrap.css",
+		"/E/WordPressSite/html/css/media.css",
+		"/E/WordPressSite/html/libs/bootstrap/css/bootstrap.min.css",
+		"/E/WordPressSite/other_files/__clean_html_original/css/sass/main.sass",
+		"/E/WordPressSite/other_files/__clean_html_original/index.html",
+		"/E/WordPressSite/html/img/logo.svg",
+		"/D/dima/project/man/index.html",
+		"/D/dima/project/Start-land-page/index.html",
+		"/E/WordPressSite/html/libs/bootstrap/jqBootstrapValidation.js",
+		"/E/WordPressSite/html/libs/bootstrap/bootstrap-grid.min.css",
+		"/E/WordPressSite/html/libs/animate/animate.min.css",
+		"/E/WordPressSite/html/libs/animate/animate.min.js",
+		"/D/dima/project/Start-land-page/js/common.js",
+		"/E/WordPressSite/html/css/sass/skins/tomato.sass",
+		"/E/WordPressSite/html/css/sass/fonts.sass",
+		"/E/WordPressSite/html/css/sass/main.sass",
+		"/E/WordPressSite/html/config.rb",
+		"/E/WordPressSite/html/.gitignore",
+		"/D/dima/project/Start-land-page/.gitignore",
+		"/E/WordPressSite/html/ssh-key-for-github.pub",
+		"/E/WordPressSite/html/ssh-key-for-github",
+		"/D/dima/project/Start-land-page/README.md",
+		"/D/dima/project/man/css/sass/main.scss",
+		"/E/WordPressSite/Site/index.html",
+		"/E/WordPressSite/__clean_html_original/index.html",
+		"/D/dima/project/Interpals.com",
+		"/D/dima/project/man/libs/fancybox/source/jquery.fancybox.css",
+		"/D/dima/life-hacks",
+		"/D/dima/template/fixed menu+/css/main.css",
+		"/D/dima/template/fixed menu+/js/common.js",
+		"/D/dima/project/Junior/css/sass/main.scss",
+		"/D/dima/project/man/config.rb",
+		"/D/dima/project/Junior/index.html",
+		"/D/dima/project/Junior/js/common.js",
+		"/D/dima/project/Junior/css/main.css",
+		"/D/dima/project/animate.css/animate.html",
+		"/D/dima/project/Junior/libs/bootstrap/css/bootstrap.css",
+		"/D/dima/project/Start-land-page/libs/bootstrap/css/bootstrap.css",
+		"/D/dima/project/Start-land-page/libs/bootstrap/js/bootstrap.js",
+		"/D/dima/project/Start-land-page/libs/bootstrap/css/bootstrap-theme.css",
+		"/D/dima/project/brus/css/sass/main.sass",
+		"/D/dima/openserver/OpenServer/domains/template/shoelace/shoelace/js/min/global.min.js",
+		"/D/dima/openserver/OpenServer/domains/template/shoelace/shoelace/css/gumby.css",
+		"/D/dima/project/Junior/libs/animate/animate-css.js",
+		"/D/dima/openserver/OpenServer/domains/template/shoelace/shoelace/js/libs/modernizr-2.6.2.min.js",
+		"/D/dima/project/Junior/css/fonts.css",
+		"/D/dima/project/Junior/css/sass/fonts.scss",
+		"/D/dima/project/Start-land-page/libs/fancybox/source/jquery.fancybox.js",
+		"/D/dima/project/Start-land-page/libs/inputmask/js/inputmask.phone.extensions.js",
+		"/D/dima/project/Start-land-page/libs/inputmask/RobinHerbots-jquery.inputmask-a2f5e1e/extra/phone-codes/phone-ru.js",
+		"/D/dima/project/brus/index.html",
+		"/D/dima/project/Junior/fonts/Oxygen/stylesheet.css",
+		"/C/Program Files/Git/usr/bin/start",
+		"/C/Users/Олюшка/.gitconfig",
+		"/D/dima/project/Start-land-page/.gitconfig",
+		"/D/dima/project/Junior/.gitconfig",
+		"/D/dima/project/Junior/.gitignore",
+		"/D/dima/project/Junior/css/media.css",
+		"/D/dima/project/Junior/config.rb",
+		"/C/temp/testproject1/pom.xml",
+		"/C/temp/testproject2/book.java",
+		"/D/dima/project/firstlanding/js/toggle.js",
+		"/D/dima/project/firstlanding/css/main.css",
+		"/D/dima/project/Remont-okon/php/base.php",
+		"/D/dima/project/BD/css/sass/main.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"services",
+			"portfolio",
+			"service-icon",
+			"background-cover",
+			">\n",
+			"add-free-for-review",
+			"min-width",
+			"simple",
+			"min-width",
+			"max-width",
+			".portfolio-box",
+			"img-responsive",
+			"portfolio-box",
+			"portfolio-box ",
+			"bg-primary",
+			"page-scroll",
+			"text-faded",
+			"p ",
+			"p",
+			"btn",
+			"primary",
+			"fa-4x",
+			"candidat_the_excerpt_max_charlength_t",
+			"candidat_the_excerpt_max_charlength_text(get_",
+			"candidat_the_excerpt_max_charlength_text(get_the_excerpt()",
+			"blog-post",
+			"conta",
+			"cont",
+			"444",
+			"17px;",
+			"font-size:17px;",
+			"font-size: 17px;",
+			"font-size:17px;",
+			"font-size:13px;",
+			"font-size: 13px;",
+			"font-size: 150px;",
+			" font-size: 150px;",
+			"sr-only",
+			"site",
+			"text-primary",
+			"sr-button",
+			"navbar-toggle",
+			"mainNav",
+			"page-scroll",
+			"less",
+			"less.js\"",
+			"mainNav",
+			"page-scroll",
+			"Ноябрь",
+			"pricer-tab",
+			"table-responsive",
+			"<a class=\"inner-link\" href=\"#list-h\">",
+			"a-tile-main",
+			"inner-lin",
+			"pricer-tab",
+			"nav-tabs",
+			"nav nav-tabs",
+			"heder-of-section",
+			"for-margin",
+			"image-block",
+			"p-tile-paragraph",
+			"h-tile-header",
+			"a-tile-main",
+			"i-tile-grad",
+			"i-tile-bg",
+			"image-block",
+			"js-tab-image-group",
+			".pricer-",
+			".price-",
+			"price-",
+			"a-tile-main",
+			"p-tile-paragraph",
+			"head-of-table",
+			".p-tile-paragraph",
+			"h-tile-header",
+			"e2e2e2",
+			"dbdbdb",
+			"dropdown-toggle\"",
+			".table-hover > tbody > tr:hover",
+			"awes",
+			";\n",
+			"pos",
+			";\n",
+			"parallax",
+			"social_wrap",
+			"social",
+			"main_color_bg",
+			"head",
+			"magn",
+			"top_wrapper",
+			"magnific-popup",
+			".heder .points ul a",
+			"-dur",
+			"dur",
+			"durat",
+			"points",
+			"top_text",
+			"454545",
+			"solid",
+			"top_text",
+			"section",
+			"sect",
+			"15px",
+			"style=\"fill:*",
+			"style=\"fill:*\"",
+			"style=\"fill: .*\"",
+			"main_color_bg",
+			"br",
+			"animate",
+			"fonts4web",
+			"градиентов",
+			"sass",
+			"></",
+			"fancybox",
+			"fancybox-w-w-o",
+			"mail-border",
+			".mail-border",
+			"downselling",
+			"main",
+			"11",
+			"sprite",
+			"my-transition",
+			"  	-moz-animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/\n",
+			"my-transition",
+			"lg",
+			"viewportChecker",
+			"hover",
+			"}"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"11",
+			"4k",
+			"fhd",
+			"hd",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"\"",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"b",
+			"&lt;",
+			"&gt;",
+			"&gl;",
+			"&lt;",
+			"&lg;",
+			"&tl;",
+			"<h4>",
+			"&gt;",
+			"&lt;",
+			"script",
+			"!",
+			"class",
+			"}",
+			"sell_right",
+			"slder_container",
+			"c",
+			"ta",
+			":;",
+			";\n",
+			"center",
+			";\n",
+			"fff",
+			"}\n",
+			")\n",
+			":;",
+			"a",
+			"ib",
+			";\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 360.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -423,7 +423,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 28700,
+				"buffer_size": 43418,
 				"line_ending": "Unix"
 			}
 		},
@@ -530,6 +530,10 @@
 	},
 	"file_history":
 	[
+		"/D/dima/upwork/#1_landing_niderlands/.gitignore",
+		"/D/dima/project/first/index.html",
+		"/E/vitremservice/README.md",
+		"/E/vitremservice/zaglushka.html",
 		"/E/vitremservice/index1.html",
 		"/E/vitremservice/index.html",
 		"/E/vitremservice/.htaccess",
@@ -653,11 +657,7 @@
 		"/D/dima/project/firstlanding/css/main.css",
 		"/D/dima/project/Remont-okon/php/base.php",
 		"/D/dima/project/BD/css/sass/main.scss",
-		"/D/dima/project/BD/.gitignore",
-		"/D/dima/project/BD/css/main.css",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/tomcat/conf/server.xml",
-		"/D/dima/project/BD/index.html"
+		"/D/dima/project/BD/.gitignore"
 	],
 	"find":
 	{
@@ -675,6 +675,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pri",
+			"section-heading",
+			"blank",
+			"api/openapi.js",
+			"https://vk.com/js/api/openapi.js",
 			"services",
 			"portfolio",
 			"service-icon",
@@ -797,12 +802,7 @@
 			"11",
 			"sprite",
 			"my-transition",
-			"  	-moz-animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/\n",
-			"my-transition",
-			"lg",
-			"viewportChecker",
-			"hover",
-			"}"
+			"  	-moz-animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/\n"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -873,15 +873,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28700,
+						"buffer_size": 43418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6563,
-								6563
+								960,
+								960
 							]
 						],
 						"settings":
@@ -891,7 +891,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1825.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -946,8 +946,8 @@
 						"selection":
 						[
 							[
-								4018,
-								4018
+								13545,
+								13533
 							]
 						],
 						"settings":
@@ -957,7 +957,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2689.0,
+						"translation.y": 8182.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1081,7 +1081,7 @@
 		"cols":
 		[
 			0.0,
-			0.576134699852,
+			0.632503660322,
 			1.0
 		],
 		"rows":
